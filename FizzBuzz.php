@@ -3,12 +3,12 @@ class FizzBuzz {
     public function fizzBuzzSequence (): void
     {
         for ($i = 1; $i <= 100; $i++) {
-          $fizzNumer = ($i % 3 === 0);
+          $fizzNumber = ($i % 3 === 0);
           $buzzNumber = ($i % 5 === 0);
 
-          if($fizzNumer && $buzzNumber) {
+          if($fizzNumber && $buzzNumber) {
             echo "FizzBuzz,\n";
-          } elseif($fizzNumer) {
+          } elseif($fizzNumber) {
             echo "Fizz,\n";
           } elseif($buzzNumber) {
             echo "Buzz,\n";
